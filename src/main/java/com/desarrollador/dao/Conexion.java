@@ -13,10 +13,8 @@ public class Conexion {
 	// DEFINIMOS LOS METODOS QUE NOS VAN A AYUDAR A ABRIR O CERRAR LA CONEXION
 	public void conectar() throws Exception {
 		try {
-			
 			conexion = DriverManager.getConnection(connectionUrl);
 			//Class.forName(JDBC_DRIVER);
-			System.out.println("Conexion exitosa!!");
 		} catch (Exception e) {
 			throw e;
 		}
