@@ -62,8 +62,8 @@ public class PArticulos extends JPanel {
 		add(bExportarTabla);
 
 		tData.setBounds(20, 80, 1150, 800);
-		tData.setToolTipText("tooltip");
 		tData.disable();
+		
 		add(tData);
 
 		modelo.addColumn(nombresColumnas);
